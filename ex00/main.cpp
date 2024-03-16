@@ -51,6 +51,7 @@ std::cout << std::endl << std::endl << std::endl;
     ScalarConverter::convert("-inff");
     ScalarConverter::convert("-infff");
     ScalarConverter::convert("+inff");
+    ScalarConverter::convert("42.0f");
 }
 std::cout << std::endl << std::endl << std::endl;
 {
